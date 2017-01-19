@@ -372,4 +372,14 @@ public class Detector {
         return buf.toString();
     }
 
+    /**
+     * Clear the text.
+     * It's necessary to allow to reuse {@link #append(Reader)} or {@link #append(Reader)String)}  and  {@link detector()}.
+     * 
+     * If the text don't be cleared, the past texts prevent the detector to identify a new text, maybe using another language.
+     */
+    public void clear() {
+        this.text = new StringBuffer();
+        langprob = null;
+    }
 }
