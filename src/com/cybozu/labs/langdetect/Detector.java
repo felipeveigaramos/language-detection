@@ -65,7 +65,7 @@ public class Detector {
     private static final double PROB_THRESHOLD = 0.1;
     private static final double CONV_THRESHOLD = 0.99999;
     private static final int BASE_FREQ = 10000;
-    private static final String UNKNOWN_LANG = "unknown";
+    public static final String UNKNOWN_LANG = "unknown";
 
     /**
      * The regular expressions that follows, used to extract an valid URL, were extracted from Twitter API.
