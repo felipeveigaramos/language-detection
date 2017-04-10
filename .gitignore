@@ -1,2 +1,11 @@
+# build folder in root
+/build/
 /bin/
+
+# Maven output folder
+/target
+
+# Eclipse project files
 .classpath
+.project
+.settings/
