@@ -135,7 +135,7 @@ public class Detector {
     private static final String URL_VALID_URL_QUERY_CHARS = "[a-z0-9!?\\*'\\(\\);:&=\\+\\$/%#\\[\\]\\-_\\.,~\\|@]";
     private static final String URL_VALID_URL_QUERY_ENDING_CHARS = "[a-z0-9_&=#/]";
 
-    private static final String VALID_URL_PATTERN_STRING = "(" + // $1 total match
+    public static final String VALID_URL_PATTERN_STRING = "(" + // $1 total match
             "(" + URL_VALID_PRECEEDING_CHARS + ")" + // $2 Preceeding chracter
             "(" + // $3 URL
             "(https?://)?" + // $4 Protocol (optional)
@@ -147,7 +147,7 @@ public class Detector {
 
     public static final Pattern URL_REGEX = Pattern.compile(VALID_URL_PATTERN_STRING, Pattern.CASE_INSENSITIVE);
     public static final Pattern MAIL_REGEX = Pattern
-            .compile("[-_.0-9A-Za-z]{1,64}@[-_0-9A-Za-z]{1,255}[-_.0-9A-Za-z]{1,255}");
+            .compile("[-a-z0-9~!$%^&*_=+}{\\'?]+(\\.[-a-z0-9~!$%^&*_=+}{\\'?]+)*@([a-z0-9_][-a-z0-9_]*(\\.[-a-z0-9_]+)*\\.(aero|arpa|biz|com|coop|edu|gov|info|int|mil|museum|name|net|org|pro|travel|mobi|[a-z][a-z])|([0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}))(:[0-9]{1,5})?", Pattern.CASE_INSENSITIVE);
 
     private final HashMap<String, double[]> wordLangProbMap;
     private final ArrayList<String> langlist;
