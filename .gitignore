@@ -1,1 +1,37 @@
+######################
+# Maven
+######################
+/log/
 /target/
+
+
+######################
+# Eclipse
+######################
+*.pydevproject
+.metadata
+/bin/
+/tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+/dataset/
+*.log*
+*.bin
+
+####################
+# Netbeans
+####################
+nbactions.xml
+*.db
+*.db-journal
+/nb-configuration.xml
+/posts_security.json
+
+#Especifico
+*.db
