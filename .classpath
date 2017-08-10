@@ -11,6 +11,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="src" path="src/test"/>
 	<classpathentry kind="var" path="M2_REPO/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar"/>
 	<classpathentry kind="var" path="M2_REPO/net/arnx/jsonic/1.2.7/jsonic-1.2.7.jar"/>
 	<classpathentry kind="var" path="M2_REPO/junit/junit/4.10/junit-4.10.jar"/>
