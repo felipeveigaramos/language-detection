@@ -1,15 +1,7 @@
 /**
  * 
  */
-package com.cybozu.labs.langdetect.util;
-
-import static org.junit.Assert.*;
-
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+package java.com.cybozu.labs.langdetect.util;
 
 /**
  * @author Nakatani Shuyo

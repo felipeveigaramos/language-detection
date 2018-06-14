@@ -1,13 +1,7 @@
-package com.cybozu.labs.langdetect;
+package java.com.cybozu.labs.langdetect;
 
-import static org.junit.Assert.*;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import com.cybozu.labs.langdetect.Detector;
+import com.cybozu.labs.langdetect.DetectorFactory;
 
 /**
  * Unit test for {@link Detector} and {@link DetectorFactory}.

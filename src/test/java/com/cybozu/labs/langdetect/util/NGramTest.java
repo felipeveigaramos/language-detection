@@ -1,14 +1,7 @@
 /**
  * 
  */
-package com.cybozu.labs.langdetect.util;
-
-import static org.junit.Assert.*;
-
-import static org.hamcrest.CoreMatchers.is;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+package java.com.cybozu.labs.langdetect.util;
 
 /**
  * @author Nakatani Shuyo
